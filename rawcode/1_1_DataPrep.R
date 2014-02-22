@@ -30,7 +30,7 @@ ds$date <- ymd(as.character(ds$date))
 vars <- names(ds)
 
 target <- "rain_tomorrow"
-risk <- "rism_mm"
+risk <- "risk_mm"
 id <- c("date", "location") 
 
 # Clean - Ignore IDs, Outputs, Missing
